@@ -7,7 +7,6 @@ nvm nstall node
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sh -c "$(curl -sSfL https://release.solana.com/v1.17.9/install)"
 NODE_MAJOR=18 
-
 sudo apt-get update
 
 sudo apt-get install -y ca-certificates curl gnupg 
